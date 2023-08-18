@@ -46,7 +46,7 @@ class API:
     
 async def main():
     api = API()
-    chart = Chart(api=api, topbar=True, searchbox=True)
+    chart = Chart() # (api=api, topbar=True, searchbox=True)
     
     symbol = 'AAPL'
     timeframe = '15 mins'

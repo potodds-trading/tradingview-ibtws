@@ -19,7 +19,7 @@ if __name__ == '__main__':
     df = util.df(bars)
 
     # show the initial chart with the minute bars
-    chart = Chart(volume_enabled=False)
+    chart = Chart() #(volume_enabled=False)
     chart.set(df)
     chart.show()
 
